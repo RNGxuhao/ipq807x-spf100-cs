@@ -1,0 +1,371 @@
+22:53:36 
+msp.py is running from CWD: /local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+
+22:53:36 
+Search Paths
+22:53:36 []
+22:53:36 
+Files
+22:53:36 []
+22:53:36 
+
+	Looking for '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC/rawprogram1.xml'
+22:53:36 	----------------------------------------
+22:53:36 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:36 
+	**Found /local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC/rawprogram1.xml (1407 bytes)
+22:53:36 
+
+	Looking for '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC/patch1.xml'
+22:53:36 	----------------------------------------
+22:53:36 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:36 
+	**Found /local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC/patch1.xml (5231 bytes)
+22:53:36 MinDiskSizeInSectors=8226 sectors (4.02MB)
+22:53:36 MinDiskSizeInSectors=270370 sectors (132.02MB)
+22:53:36 MinDiskSizeInSectors=61997056 sectors (30272.00MB)
+22:53:36 
+
+	Looking for 'testsparse.py'
+22:53:36 	----------------------------------------
+22:53:36 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:36 	Cound't find file OR perhaps you don't have permission to run os.stat() on this file
+
+22:53:36 
+Programming singleimage.bin of size 29.56 GB
+22:53:36 	             _        _     _             
+22:53:36 	            | |      | |   (_)            
+22:53:36 	 _ __   __ _| |_  ___| |__  _ _ __   __ _ 
+22:53:36 	| '_ \ / _` | __|/ __| '_ \| | '_ \ / _` |
+22:53:36 	| |_) | (_| | |_| (__| | | | | | | | (_| |
+22:53:36 	| .__/ \__,_|\__|\___|_| |_|_|_| |_|\__, |
+22:53:36 	| |                                  __/ |
+22:53:36 	|_|                                 |___/ 
+22:53:36 
+------------------------------------------------------------------------------
+22:53:36 PATCH: (gpt_main1.bin) Update Primary Header with LastUseableLBA.
+22:53:36 
+
+	Looking for 'gpt_main1.bin'
+22:53:36 	----------------------------------------
+22:53:36 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:36 
+	**Found gpt_main1.bin (17408 bytes)
+22:53:36 Opened gpt_main1.bin, cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:36 moving to sector 1 (byte location 512)
+22:53:36 success was able to read len(bytes_read)=512
+22:53:36 At sector 1 (0x200) file_sector_offset 48 (0x30) in gpt_main1.bin with 61997022 (0x3B1FFDE)
+22:53:36 Patch value:61997022
+22:53:36 (little endian)
+22:53:36 committing patch of length 512 bytes
+22:53:36 CLOSED 'gpt_main1.bin'
+22:53:36 You're on LINUX! I'm performing a SYNC for you
+22:53:36 PATCH:
+22:53:36 DONE
+
+22:53:36 
+------------------------------------------------------------------------------
+22:53:36 PATCH: (gpt_backup1.bin) Update Backup Header with LastUseableLBA.
+22:53:36 
+
+	Looking for 'gpt_backup1.bin'
+22:53:36 	----------------------------------------
+22:53:36 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:36 
+	**Found gpt_backup1.bin (16896 bytes)
+22:53:36 Opened gpt_backup1.bin, cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:36 moving to sector 32 (byte location 16384)
+22:53:36 success was able to read len(bytes_read)=512
+22:53:36 At sector 32 (0x4000) file_sector_offset 48 (0x30) in gpt_backup1.bin with 61997022 (0x3B1FFDE)
+22:53:36 Patch value:61997022
+22:53:36 (little endian)
+22:53:36 committing patch of length 512 bytes
+22:53:36 CLOSED 'gpt_backup1.bin'
+22:53:36 You're on LINUX! I'm performing a SYNC for you
+22:53:36 PATCH:
+22:53:36 DONE
+
+22:53:36 
+------------------------------------------------------------------------------
+22:53:36 PATCH: (gpt_main1.bin) Update Primary Header with BackupGPT Header Location.
+22:53:36 
+
+	Looking for 'gpt_main1.bin'
+22:53:36 	----------------------------------------
+22:53:36 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:36 
+	**Found gpt_main1.bin (17408 bytes)
+22:53:36 Opened gpt_main1.bin, cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:36 moving to sector 1 (byte location 512)
+22:53:36 success was able to read len(bytes_read)=512
+22:53:36 At sector 1 (0x200) file_sector_offset 32 (0x20) in gpt_main1.bin with 61997055 (0x3B1FFFF)
+22:53:36 Patch value:61997055
+22:53:36 (little endian)
+22:53:36 committing patch of length 512 bytes
+22:53:36 CLOSED 'gpt_main1.bin'
+22:53:36 You're on LINUX! I'm performing a SYNC for you
+22:53:36 PATCH:
+22:53:36 DONE
+
+22:53:36 
+------------------------------------------------------------------------------
+22:53:36 PATCH: (gpt_backup1.bin) Update Backup Header with CurrentLBA.
+22:53:36 
+
+	Looking for 'gpt_backup1.bin'
+22:53:36 	----------------------------------------
+22:53:36 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:36 
+	**Found gpt_backup1.bin (16896 bytes)
+22:53:36 Opened gpt_backup1.bin, cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:36 moving to sector 32 (byte location 16384)
+22:53:36 success was able to read len(bytes_read)=512
+22:53:36 At sector 32 (0x4000) file_sector_offset 24 (0x18) in gpt_backup1.bin with 61997055 (0x3B1FFFF)
+22:53:36 Patch value:61997055
+22:53:36 (little endian)
+22:53:36 committing patch of length 512 bytes
+22:53:36 CLOSED 'gpt_backup1.bin'
+22:53:36 You're on LINUX! I'm performing a SYNC for you
+22:53:36 PATCH:
+22:53:36 DONE
+
+22:53:36 
+------------------------------------------------------------------------------
+22:53:36 PATCH: (gpt_backup1.bin) Update Backup Header with Partition Array Location.
+22:53:36 
+
+	Looking for 'gpt_backup1.bin'
+22:53:36 	----------------------------------------
+22:53:36 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:36 
+	**Found gpt_backup1.bin (16896 bytes)
+22:53:36 Opened gpt_backup1.bin, cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:36 moving to sector 32 (byte location 16384)
+22:53:36 success was able to read len(bytes_read)=512
+22:53:36 At sector 32 (0x4000) file_sector_offset 72 (0x48) in gpt_backup1.bin with 61997023 (0x3B1FFDF)
+22:53:36 Patch value:61997023
+22:53:36 (little endian)
+22:53:36 committing patch of length 512 bytes
+22:53:36 CLOSED 'gpt_backup1.bin'
+22:53:36 You're on LINUX! I'm performing a SYNC for you
+22:53:36 PATCH:
+22:53:36 DONE
+
+22:53:36 
+------------------------------------------------------------------------------
+22:53:36 PATCH: (gpt_main1.bin) Update Primary Header with CRC of Partition Array.
+22:53:36 
+
+	Looking for 'gpt_main1.bin'
+22:53:36 	----------------------------------------
+22:53:36 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:36 
+	**Found gpt_main1.bin (17408 bytes)
+22:53:36 Opened gpt_main1.bin, cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:36 	CRC32(2,512) requested 
+22:53:36 moving to sector 2 (byte location 1024)
+22:53:36 	Move Successful 
+22:53:36 	Trying to read 512 bytes in gpt_main1.bin
+22:53:36 	len(bytes_read)=
+22:53:36 	CRC32=0x5ABD6AEC
+22:53:36 moving to sector 1 (byte location 512)
+22:53:36 success was able to read len(bytes_read)=512
+22:53:36 At sector 1 (0x200) file_sector_offset 88 (0x58) in gpt_main1.bin with 1522363116 (0x5ABD6AEC)
+22:53:36 Patch value:1522363116
+22:53:36 (little endian)
+22:53:36 committing patch of length 512 bytes
+22:53:36 CLOSED 'gpt_main1.bin'
+22:53:36 You're on LINUX! I'm performing a SYNC for you
+22:53:36 PATCH:
+22:53:36 DONE
+
+22:53:36 
+------------------------------------------------------------------------------
+22:53:36 PATCH: (gpt_backup1.bin) Update Backup Header with CRC of Partition Array.
+22:53:36 
+
+	Looking for 'gpt_backup1.bin'
+22:53:36 	----------------------------------------
+22:53:36 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:36 
+	**Found gpt_backup1.bin (16896 bytes)
+22:53:36 Opened gpt_backup1.bin, cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:36 	CRC32(0,512) requested 
+22:53:36 moving to sector 0 (byte location 0)
+22:53:36 	Move Successful 
+22:53:36 	Trying to read 512 bytes in gpt_backup1.bin
+22:53:36 	len(bytes_read)=
+22:53:36 	CRC32=0x5ABD6AEC
+22:53:36 moving to sector 32 (byte location 16384)
+22:53:36 success was able to read len(bytes_read)=512
+22:53:36 At sector 32 (0x4000) file_sector_offset 88 (0x58) in gpt_backup1.bin with 1522363116 (0x5ABD6AEC)
+22:53:36 Patch value:1522363116
+22:53:36 (little endian)
+22:53:36 committing patch of length 512 bytes
+22:53:36 CLOSED 'gpt_backup1.bin'
+22:53:36 You're on LINUX! I'm performing a SYNC for you
+22:53:37 PATCH:
+22:53:37 DONE
+
+22:53:37 
+------------------------------------------------------------------------------
+22:53:37 PATCH: (gpt_main1.bin) Zero Out Header CRC in Primary Header.
+22:53:37 
+
+	Looking for 'gpt_main1.bin'
+22:53:37 	----------------------------------------
+22:53:37 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:37 
+	**Found gpt_main1.bin (17408 bytes)
+22:53:37 Opened gpt_main1.bin, cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:37 moving to sector 1 (byte location 512)
+22:53:37 success was able to read len(bytes_read)=512
+22:53:37 At sector 1 (0x200) file_sector_offset 16 (0x10) in gpt_main1.bin with 0 (0x0)
+22:53:37 Patch value:0
+22:53:37 (little endian)
+22:53:37 committing patch of length 512 bytes
+22:53:37 CLOSED 'gpt_main1.bin'
+22:53:37 You're on LINUX! I'm performing a SYNC for you
+22:53:37 PATCH:
+22:53:37 DONE
+
+22:53:37 
+------------------------------------------------------------------------------
+22:53:37 PATCH: (gpt_main1.bin) Update Primary Header with CRC of Primary Header.
+22:53:37 
+
+	Looking for 'gpt_main1.bin'
+22:53:37 	----------------------------------------
+22:53:37 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:37 
+	**Found gpt_main1.bin (17408 bytes)
+22:53:37 Opened gpt_main1.bin, cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:37 	CRC32(1,92) requested 
+22:53:37 moving to sector 1 (byte location 512)
+22:53:37 	Move Successful 
+22:53:37 	Trying to read 92 bytes in gpt_main1.bin
+22:53:37 	len(bytes_read)=
+22:53:37 	CRC32=0x7D8E66BF
+22:53:37 moving to sector 1 (byte location 512)
+22:53:37 success was able to read len(bytes_read)=512
+22:53:37 At sector 1 (0x200) file_sector_offset 16 (0x10) in gpt_main1.bin with 2106484415 (0x7D8E66BF)
+22:53:37 Patch value:2106484415
+22:53:37 (little endian)
+22:53:37 committing patch of length 512 bytes
+22:53:37 CLOSED 'gpt_main1.bin'
+22:53:37 You're on LINUX! I'm performing a SYNC for you
+22:53:37 PATCH:
+22:53:37 DONE
+
+22:53:37 
+------------------------------------------------------------------------------
+22:53:37 PATCH: (gpt_backup1.bin) Zero Out Header CRC in Backup Header.
+22:53:37 
+
+	Looking for 'gpt_backup1.bin'
+22:53:37 	----------------------------------------
+22:53:37 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:37 
+	**Found gpt_backup1.bin (16896 bytes)
+22:53:37 Opened gpt_backup1.bin, cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:37 moving to sector 32 (byte location 16384)
+22:53:37 success was able to read len(bytes_read)=512
+22:53:37 At sector 32 (0x4000) file_sector_offset 16 (0x10) in gpt_backup1.bin with 0 (0x0)
+22:53:37 Patch value:0
+22:53:37 (little endian)
+22:53:37 committing patch of length 512 bytes
+22:53:37 CLOSED 'gpt_backup1.bin'
+22:53:37 You're on LINUX! I'm performing a SYNC for you
+22:53:37 PATCH:
+22:53:37 DONE
+
+22:53:37 
+------------------------------------------------------------------------------
+22:53:37 PATCH: (gpt_backup1.bin) Update Backup Header with CRC of Backup Header.
+22:53:37 
+
+	Looking for 'gpt_backup1.bin'
+22:53:37 	----------------------------------------
+22:53:37 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:37 
+	**Found gpt_backup1.bin (16896 bytes)
+22:53:37 Opened gpt_backup1.bin, cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:37 	CRC32(32,92) requested 
+22:53:37 moving to sector 32 (byte location 16384)
+22:53:37 	Move Successful 
+22:53:37 	Trying to read 92 bytes in gpt_backup1.bin
+22:53:37 	len(bytes_read)=
+22:53:37 	CRC32=0x15384D91
+22:53:37 moving to sector 32 (byte location 16384)
+22:53:37 success was able to read len(bytes_read)=512
+22:53:37 At sector 32 (0x4000) file_sector_offset 16 (0x10) in gpt_backup1.bin with 356011409 (0x15384D91)
+22:53:37 Patch value:356011409
+22:53:37 (little endian)
+22:53:37 committing patch of length 512 bytes
+22:53:37 CLOSED 'gpt_backup1.bin'
+22:53:37 You're on LINUX! I'm performing a SYNC for you
+22:53:37 PATCH:
+22:53:37 DONE
+
+22:53:37 Done patching
+22:53:37 	                                                     _            
+22:53:37 	                                                    (_)            
+22:53:37 	 _ __  _ __ ___   __ _ _ __ __ _ _ __ ___  _ __ ___  _ _ __   __ _ 
+22:53:37 	| '_ \| '__/ _ \ / _` | '__/ _` | '_ ` _ \| '_ ` _ \| | '_ \ / _` |
+22:53:37 	| |_) | | | (_) | (_| | | | (_| | | | | | | | | | | | | | | | (_| |
+22:53:37 	| .__/|_|  \___/ \__, |_|  \__,_|_| |_| |_|_| |_| |_|_|_| |_|\__, |
+22:53:37 	| |               __/ |                                       __/ |
+22:53:37 	|_|              |___/                                       |___/ 
+22:53:37 
+==============================================================================
+22:53:37 ==============================================================================
+22:53:37 
+
+	Looking for 'gpt_main1.bin'
+22:53:37 	----------------------------------------
+22:53:37 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:37 
+	**Found gpt_main1.bin (17408 bytes)
+22:53:37 
+'gpt_main1.bin' (17.00 KB) to partition 'PrimaryGPT' at sector 0 (at 0 B)
+
+22:53:37 	Attempting to move to sector 0 (file file_sector_offset) in gpt_main1.bin
+22:53:37 	Attempting to read 17408 bytes
+22:53:37 	Successfully read 17408 bytes of 17408 bytes and closed gpt_main1.bin
+22:53:37 opfile = open('singleimage.bin', 'r+b') , cwd=/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC
+22:53:37 
+	Opened singleimage.bin
+22:53:37 	File can be written completely.
+22:53:37 	Calling opfile.write(bytes_read)
+22:53:37 	SingleImageSize 17408 bytes (34 sectors)
+22:53:37 	CurrentSector=34
+22:53:37 	DiskSize=61997056 sectors
+22:53:37 
+	Written with
+22:53:37 	python dd.py --if=gpt_main1.bin --bs=512 --count=34 --seek=0 --of=singleimage.bin
+22:53:37 
+	Verify with
+22:53:37 	python dd.py --if=singleimage.bin --bs=512 --count=34 --skip=0 --of=dump.bin
+22:53:37 
+	Successfully wrote "gpt_main1.bin" (17.00 KB payload) to singleimage.bin
+22:53:37 
+==============================================================================
+22:53:37 ==============================================================================
+22:53:37 
+
+	Looking for 'openwrt-ipq806x-3.4-uImage'
+22:53:37 	----------------------------------------
+22:53:37 	Searching '/local/mnt/workspace/CRMBuilds/BOOT.AK.1.0-00243-C-1_20190512_225104/b/boot_images/build/ms/bin/AAAAANAA/AP145_EMMC'
+22:53:37 	Cound't find file OR perhaps you don't have permission to run os.stat() on this file
+
+22:53:37 
+'openwrt-ipq806x-3.4-uImage' (0 B) to partition '0:HLOS' at sector 34 (at 17.00 KB)
+
+22:53:37 	______      _   _        ___  
+22:53:37 	| ___ \    | | | |      |__ \ 
+22:53:37 	| |_/ /__ _| |_| |__       ) |
+22:53:37 	|  __// _` | __| '_ \     / / 
+22:53:37 	| |  | (_| | |_| | | |   |_|  
+22:53:37 	\_|   \__,_|\__|_| |_|   (_)  
+
+
