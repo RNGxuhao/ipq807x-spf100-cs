@@ -297,8 +297,8 @@ define KernelPackage/$(PKG_NAME)/install/Default
 	$(INSTALL_BIN) ./files/counters_wlan_prompt_Dakota.sh $(1)/lib/wifi/debug
 	$(INSTALL_BIN) ./files/counters_wlan_prompt_hawkeye.sh $(1)/lib/wifi/debug
 
-	echo $(QCAWLAN_MODULE_NAME) | sed 's, ,\n,g' > ./files/qca-wifi-modules
-	$(INSTALL_DATA) ./files/qca-wifi-modules $(1)/lib/wifi
+	echo $(QCAWLAN_MODULE_NAME) | sed 's, ,\n,g' > $(PKG_BUILD_DIR)/qca-wifi-modules
+	$(INSTALL_DATA) $(PKG_BUILD_DIR)/qca-wifi-modules $(1)/lib/wifi
 
 	$(INSTALL_DATA) ./files/qcawificfg80211.sh $(1)/lib/wifi
 	$(INSTALL_CONF) ./files/qcacfg80211.config $(1)/etc/config/qcacfg80211
